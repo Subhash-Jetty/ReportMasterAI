@@ -555,6 +555,22 @@ body {
 }
 
 /* ========== RESPONSIVE ========== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .auth-hero {
+        flex: 0 0 40%;
+        padding: 3rem 2.5rem;
+    }
+    .hero-headline {
+        font-size: 2.2rem;
+    }
+    .hero-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile - hide hero */
 @media (max-width: 900px) {
     .auth-hero {
         display: none;
@@ -564,12 +580,85 @@ body {
     }
 }
 
+/* Small mobile */
 @media (max-width: 480px) {
     html { font-size: 14px; }
+    body { overflow: auto; }
+    .auth-form-panel {
+        padding: 1.5rem 1rem;
+        align-items: flex-start;
+        padding-top: 3rem;
+    }
     .auth-form-container {
         max-width: 100%;
     }
     .auth-form-title {
         font-size: 1.5rem;
     }
+    .auth-form-subtitle {
+        font-size: 0.82rem;
+    }
+    .form-input {
+        padding: 0.75rem 0.85rem;
+        font-size: 1rem; /* Prevents iOS zoom on focus */
+    }
+    .auth-submit-btn {
+        padding: 0.85rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    .auth-footer {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .hero-stats {
+        gap: 1.5rem;
+    }
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
 }
+
+/* Very small screens */
+@media (max-width: 360px) {
+    html { font-size: 13px; }
+    .auth-form-panel {
+        padding: 1.2rem 0.8rem;
+        padding-top: 2rem;
+    }
+    .auth-form-title {
+        font-size: 1.35rem;
+    }
+    .auth-form {
+        gap: 1rem;
+    }
+}
+
+/* Touch device improvements */
+@media (hover: none) and (pointer: coarse) {
+    .form-input {
+        font-size: 1rem; /* Prevents iOS zoom */
+        padding: 0.78rem 0.85rem;
+    }
+    .auth-submit-btn {
+        padding: 0.85rem 1.5rem;
+        min-height: 48px;
+    }
+    .password-toggle {
+        padding: 8px;
+    }
+    .checkbox-group input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+    .forgot-link {
+        padding: 4px 0;
+    }
+}
+

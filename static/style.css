@@ -210,19 +210,145 @@ body{font-family:var(--font2);background:var(--bg);color:var(--text);min-height:
 .conv-preview{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .new-chat-btn{display:flex;align-items:center;gap:.4rem;padding:.5rem .6rem;border:1.5px dashed var(--border);border-radius:var(--r);background:transparent;color:var(--muted);font-family:var(--font2);font-size:.72rem;cursor:pointer;width:100%;transition:all var(--t);margin-bottom:.5rem}
 .new-chat-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+/* ========== TABLET (up to 1024px) ========== */
+@media(max-width:1024px){
+  :root{--sidebar-w:240px}
+  .welcome-chips{max-width:420px}
+  .welcome-title{font-size:1.5rem}
+  .message-row{padding:.4rem 1.2rem}
+  .input-bar{padding:0 1.2rem 1rem}
+  .input-bar-inner{max-width:680px}
+  .cmd-palette{width:420px}
+}
+
+/* ========== MOBILE (up to 768px) ========== */
 @media(max-width:768px){
-  .sidebar{transform:translateX(-100%);width:260px}
-  .sidebar.open{transform:translateX(0)}
+  :root{--sidebar-w:280px}
+  .sidebar{transform:translateX(-100%);width:280px;box-shadow:none}
+  .sidebar.open{transform:translateX(0);box-shadow:4px 0 24px rgba(0,0,0,.15)}
   .sidebar-overlay.open{display:block}
   .chat-main{margin-left:0}
   .top-bar{display:none}
-  .mobile-header{display:flex;align-items:center;justify-content:space-between;padding:.55rem .8rem;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:10}
-  .mobile-menu-btn{width:34px;height:34px;border:none;border-radius:var(--r);background:transparent;color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center}
+
+  /* Mobile header */
+  .mobile-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:.55rem .8rem;border-bottom:1px solid var(--border);
+    background:var(--surface);position:sticky;top:0;z-index:10;
+    flex-shrink:0;min-height:48px
+  }
+  .mobile-menu-btn{width:40px;height:40px;border:none;border-radius:var(--r);background:transparent;color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent}
   .mobile-title{font-family:var(--font);font-size:.95rem;font-weight:700}
   .mobile-status{display:flex;align-items:center}
-  .message-row{padding:.3rem .8rem}
-  .input-bar{padding:0 .8rem .8rem}
-  .welcome-chips{grid-template-columns:1fr}
-  .welcome-title{font-size:1.3rem}
+
+  /* Chat area */
+  .chat-messages{padding:1rem 0 .5rem}
+  .message-row{padding:.3rem .8rem;max-width:100%}
+  .message-bubble{max-width:88%;font-size:.84rem}
+  .ai-avatar{width:24px;height:24px;font-size:.55rem;margin-right:.4rem}
+  .message-actions{opacity:1}
+
+  /* Welcome screen */
+  .welcome-screen{padding:2rem 1rem;min-height:auto}
+  .welcome-icon{width:48px;height:48px;font-size:1.2rem;border-radius:12px}
+  .welcome-title{font-size:1.3rem;margin-bottom:.4rem}
+  .welcome-subtitle{font-size:.82rem;margin-bottom:1.5rem;max-width:100%}
+  .welcome-chips{grid-template-columns:1fr;max-width:100%;gap:.4rem}
+  .welcome-chip{padding:.65rem .75rem;font-size:.74rem}
+
+  /* Input bar */
+  .input-bar{padding:0 .6rem .6rem;padding-top:.8rem}
+  .input-bar-inner{max-width:100%}
+  .input-wrapper{padding:.4rem .45rem .4rem .7rem;border-radius:16px}
+  #query-input{font-size:.84rem}
+  .send-btn{width:34px;height:34px}
+  .input-action{width:32px;height:32px}
+  .input-hint{display:none}
+
+  /* Typing */
+  .typing-row{padding:.3rem .8rem}
+
+  /* Sources */
+  .source-chip{padding:.4rem .5rem}
+  .source-chip-name{font-size:.65rem}
+  .source-chip-text{font-size:.64rem}
+
+  /* Command palette */
+  .cmd-palette{width:92vw;max-width:92vw;margin:0 auto}
+
+  /* Toast */
+  .toast-container{bottom:.6rem;right:.6rem;left:.6rem}
+  .toast{font-size:.73rem}
 }
-@media(max-width:480px){html{font-size:14px}.welcome-screen{padding:2rem .8rem}.message-bubble{max-width:90%}}
+
+/* ========== SMALL MOBILE (up to 480px) ========== */
+@media(max-width:480px){
+  html{font-size:14px}
+  .sidebar{width:100%}
+  .sidebar.open{width:100%}
+
+  .mobile-header{padding:.45rem .6rem}
+  .mobile-title{font-size:.88rem}
+
+  .welcome-screen{padding:1.5rem .6rem}
+  .welcome-icon{width:42px;height:42px;font-size:1rem;margin-bottom:1rem}
+  .welcome-title{font-size:1.15rem}
+  .welcome-subtitle{font-size:.78rem;margin-bottom:1.2rem;line-height:1.6}
+  .welcome-chip{padding:.55rem .65rem;font-size:.72rem}
+  .chip-icon{font-size:.95rem}
+
+  .message-row{padding:.25rem .6rem}
+  .message-bubble{max-width:92%;padding:.65rem .8rem;font-size:.82rem;line-height:1.65}
+  .ai-avatar{width:22px;height:22px;font-size:.5rem;margin-right:.35rem}
+  .message-meta{font-size:.6rem}
+
+  .input-bar{padding:0 .5rem .5rem;padding-top:.6rem}
+  .input-wrapper{padding:.35rem .4rem .35rem .6rem;border-radius:14px}
+  #query-input{font-size:.82rem}
+  .send-btn{width:32px;height:32px}
+  .input-action{width:30px;height:30px}
+
+  .sidebar-section{padding:.6rem .8rem}
+  .sidebar-header{padding:.7rem .8rem}
+  .user-profile{padding:.5rem .8rem}
+  .user-stats-bar{padding:.4rem .8rem}
+  .sidebar-footer{padding:.5rem .8rem}
+
+  .toast-container{bottom:.4rem;right:.4rem;left:.4rem}
+}
+
+/* ========== VERY SMALL SCREENS (up to 360px) ========== */
+@media(max-width:360px){
+  html{font-size:13px}
+  .welcome-title{font-size:1.05rem}
+  .welcome-subtitle{font-size:.75rem}
+  .message-bubble{max-width:95%;padding:.55rem .7rem}
+  .welcome-chip{padding:.5rem .55rem}
+}
+
+/* ========== LANDSCAPE MOBILE ========== */
+@media(max-height:500px) and (orientation:landscape){
+  .welcome-screen{padding:1rem;min-height:auto}
+  .welcome-icon{width:36px;height:36px;font-size:.9rem;margin-bottom:.8rem}
+  .welcome-title{font-size:1.1rem;margin-bottom:.3rem}
+  .welcome-subtitle{font-size:.76rem;margin-bottom:1rem}
+  .welcome-chips{grid-template-columns:1fr 1fr;gap:.35rem}
+  .chat-messages{padding:.5rem 0}
+  .input-bar{padding:0 .6rem .4rem;padding-top:.5rem}
+  .sidebar{width:260px}
+}
+
+/* ========== TOUCH DEVICE IMPROVEMENTS ========== */
+@media(hover:none) and (pointer:coarse){
+  .quick-btn{padding:.55rem .7rem;font-size:.76rem}
+  .doc-del-btn{opacity:.7}
+  .message-actions{opacity:1}
+  .msg-action{width:32px;height:32px}
+  .icon-btn{width:32px;height:32px}
+  .top-action{width:38px;height:38px}
+  .kbd-hint{display:none}
+  .conv-item{padding:.5rem .5rem}
+  .upload-drop-zone{padding:.6rem .7rem}
+  .footer-link{padding:.5rem .5rem}
+}
+
