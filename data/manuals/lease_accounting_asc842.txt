@@ -1,0 +1,124 @@
+LEASE ACCOUNTING STANDARDS - ASC 842
+Financial Reporting Manual - Chapter 5
+Effective Date: January 1, 2019 (Updated 2024)
+Organization: ReportMaster Financial Services
+
+1. OVERVIEW AND SCOPE
+
+ASC 842, Leases, establishes the principles for lease accounting by lessees and lessors. The standard requires lessees to recognize most leases on the balance sheet, providing greater transparency about lease obligations. This standard supersedes ASC 840 (Leases).
+
+The standard applies to all leases, including subleases, with certain exceptions:
+- Leases of intangible assets (covered by ASC 350)
+- Leases to explore for or use minerals, oil, natural gas, and similar nonregenerative resources
+- Leases of biological assets held by a lessee (covered by ASC 905)
+- Leases of inventory (covered by ASC 330)
+- Leases of assets under construction (covered by ASC 360)
+
+2. LEASE DEFINITION AND IDENTIFICATION
+
+A contract is, or contains, a lease if the contract conveys the right to control the use of identified property, plant, or equipment (an identified asset) for a period of time in exchange for consideration.
+
+2.1 Identified Asset
+An asset is typically identified by being explicitly specified in the contract. However, an asset can also be identified by being implicitly specified at the time it is made available for use by the customer.
+
+A supplier's right of substitution does not preclude the existence of an identified asset if:
+- The supplier cannot practically substitute alternative assets, or
+- The supplier would not benefit economically from exercising its substitution right.
+
+2.2 Right to Control the Use
+A customer has the right to control the use of an identified asset if, throughout the period of use, the customer has both:
+- The right to obtain substantially all of the economic benefits from use of the asset.
+- The right to direct the use of the asset (i.e., the right to decide how and for what purpose the asset is used).
+
+3. LESSEE ACCOUNTING
+
+3.1 Classification of Leases
+Lessees must classify a lease as either a finance lease or an operating lease at the commencement date.
+
+A lease is classified as a finance lease if it meets ANY of the following criteria:
+- The lease transfers ownership of the underlying asset to the lessee by the end of the lease term.
+- The lease grants the lessee an option to purchase the underlying asset that the lessee is reasonably certain to exercise.
+- The lease term is for a major part of the remaining economic life of the underlying asset (generally 75% or more).
+- The present value of the sum of lease payments and any residual value guaranteed by the lessee equals or exceeds substantially all of the fair value of the underlying asset (generally 90% or more).
+- The underlying asset is of such a specialized nature that it is expected to have no alternative use to the lessor at the end of the lease term.
+
+All other leases are classified as operating leases.
+
+3.2 Initial Measurement
+At the commencement date, the lessee must recognize:
+
+Right-of-Use (ROU) Asset: Measured at cost, which includes:
+- The initial measurement of the lease liability
+- Any lease payments made at or before the commencement date, less any lease incentives received
+- Any initial direct costs incurred by the lessee
+- An estimate of costs to be incurred by the lessee in dismantling and removing the underlying asset
+
+Lease Liability: Measured at the present value of unpaid lease payments, discounted using:
+- The rate implicit in the lease (if readily determinable), or
+- The lessee's incremental borrowing rate
+
+Lease payments included in the measurement:
+- Fixed payments (including in-substance fixed payments)
+- Variable lease payments based on an index or rate
+- Exercise price of a purchase option reasonably certain to be exercised
+- Payments for penalties for terminating the lease (if the lease term reflects the lessee exercising the termination option)
+- Residual value guarantees
+
+3.3 Subsequent Measurement
+
+Finance Lease:
+- ROU Asset: Amortized on a straight-line basis (unless another systematic basis is more representative)
+- Lease Liability: Increased for interest accrued and decreased for lease payments made
+- Interest expense is recognized using the effective interest method
+- Total expense is front-loaded (higher in earlier periods)
+
+Operating Lease:
+- Single lease cost recognized on a straight-line basis over the lease term
+- ROU Asset: Calculated as the lease liability plus prepaid rent minus accumulated amortization and any impairment
+- Lease Liability: Increased for interest accrued and decreased for lease payments made
+- Total expense is straight-line over the lease term
+
+3.4 Short-Term Lease Exemption
+A lessee may elect, as an accounting policy by class of underlying asset, not to recognize lease assets and liabilities for short-term leases (leases with a term of 12 months or less that do not include a purchase option the lessee is reasonably certain to exercise). If elected, lease payments are recognized as expense on a straight-line basis over the lease term.
+
+4. LESSOR ACCOUNTING
+
+4.1 Lease Classification
+Lessors classify leases as sales-type, direct financing, or operating leases.
+
+Sales-type lease: Meets any of the five finance lease criteria listed above.
+
+Direct financing lease: Does not meet any of the five criteria but:
+- The present value of lease payments plus the present value of any residual value guaranteed by the lessee or a third party equals or exceeds substantially all of the fair value, AND
+- It is probable that the lessor will collect the lease payments plus any amount necessary to satisfy a residual value guarantee.
+
+Operating lease: All other leases.
+
+5. LEASE MODIFICATIONS
+
+A lease modification is a change to the terms and conditions of a contract that results in a change in the scope of or consideration for a lease.
+
+Lessee Accounting for Modifications:
+- If the modification grants a new right of use not in the original lease and the price is commensurate with the standalone price, it is treated as a separate contract.
+- Otherwise, the lessee must remeasure the lease liability using a revised discount rate and adjust the ROU asset accordingly.
+
+6. TRANSITION AND PRACTICAL EXPEDIENTS
+
+Entities may elect the following practical expedients on transition:
+- Package of three: No reassessment of (1) whether existing contracts contain leases, (2) lease classification, or (3) initial direct costs.
+- Hindsight: Use of hindsight in determining the lease term and assessing impairment of ROU assets.
+- Short-term lease exemption: Available on transition for leases with a remaining term of 12 months or less.
+
+7. DISCLOSURE REQUIREMENTS
+
+Lessees must disclose:
+- Finance lease cost (amortization of ROU assets and interest on lease liabilities)
+- Operating lease cost
+- Short-term lease cost
+- Variable lease cost
+- Total lease cost
+- Cash paid for amounts included in the measurement of lease liabilities
+- ROU assets obtained in exchange for new lease liabilities
+- Weighted-average remaining lease term
+- Weighted-average discount rate
+- Maturity analysis of lease liabilities (undiscounted cash flows for each of the first five years and a total for remaining years)

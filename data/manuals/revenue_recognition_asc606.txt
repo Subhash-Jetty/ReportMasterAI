@@ -1,0 +1,86 @@
+REVENUE RECOGNITION STANDARDS - ASC 606
+Financial Reporting Manual - Chapter 3
+Effective Date: January 1, 2018 (Updated 2024)
+Organization: ReportMaster Financial Services
+
+1. OVERVIEW AND SCOPE
+
+ASC 606, Revenue from Contracts with Customers, establishes the principles for reporting useful information about the nature, amount, timing, and uncertainty of revenue and cash flows arising from an entity's contracts with customers. This standard applies to all contracts with customers except for lease contracts, insurance contracts, financial instruments, and certain nonmonetary exchanges.
+
+The core principle of ASC 606 is that an entity should recognize revenue to depict the transfer of promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services.
+
+2. THE FIVE-STEP MODEL
+
+Step 1: Identify the Contract with a Customer
+A contract is an agreement between two or more parties that creates enforceable rights and obligations. For ASC 606 purposes, a contract must meet ALL of the following criteria:
+- The parties have approved the contract and are committed to perform their respective obligations.
+- Each party's rights regarding goods or services to be transferred can be identified.
+- The payment terms for goods or services to be transferred can be identified.
+- The contract has commercial substance.
+- It is probable that the entity will collect the consideration to which it will be entitled.
+
+If these criteria are not met at contract inception, the entity should continue to reassess whether the criteria are subsequently met.
+
+Step 2: Identify the Performance Obligations in the Contract
+A performance obligation is a promise in a contract with a customer to transfer either:
+(a) A good or service (or a bundle of goods or services) that is distinct; or
+(b) A series of distinct goods or services that are substantially the same and have the same pattern of transfer.
+
+A good or service is distinct if both of the following criteria are met:
+- The customer can benefit from the good or service either on its own or together with other readily available resources (capable of being distinct).
+- The entity's promise to transfer the good or service to the customer is separately identifiable from other promises in the contract (distinct within the context of the contract).
+
+Step 3: Determine the Transaction Price
+The transaction price is the amount of consideration to which an entity expects to be entitled in exchange for transferring promised goods or services to a customer. When determining the transaction price, an entity must consider:
+- Variable consideration (e.g., discounts, rebates, refunds, credits, price concessions, incentives, performance bonuses, penalties)
+- Constraining estimates of variable consideration
+- The existence of a significant financing component in the contract
+- Noncash consideration
+- Consideration payable to the customer
+
+Step 4: Allocate the Transaction Price to the Performance Obligations
+If a contract has more than one performance obligation, the entity must allocate the transaction price to each performance obligation based on the relative standalone selling prices of each distinct good or service. Methods for estimating standalone selling price include:
+- Adjusted market assessment approach
+- Expected cost plus a margin approach
+- Residual approach (in limited circumstances)
+
+Step 5: Recognize Revenue When (or As) Each Performance Obligation Is Satisfied
+Revenue is recognized when (or as) control of the promised good or service is transferred to the customer. Control may transfer over time or at a point in time.
+
+An entity transfers control over time if one of the following criteria is met:
+- The customer simultaneously receives and consumes the benefits.
+- The entity's performance creates or enhances an asset that the customer controls.
+- The entity's performance does not create an asset with an alternative use and the entity has an enforceable right to payment for performance completed to date.
+
+3. CONTRACT MODIFICATIONS
+
+A contract modification is a change in the scope or price (or both) of a contract that is approved by the parties to the contract. A contract modification should be accounted for as:
+- A separate contract, if additional goods/services are distinct and the price reflects standalone selling prices.
+- A termination of the existing contract and creation of a new contract.
+- A modification to the existing contract through a cumulative catch-up adjustment.
+
+4. CONTRACT COSTS
+
+Costs to Obtain a Contract: An entity must recognize as an asset the incremental costs of obtaining a contract with a customer if the entity expects to recover those costs. Incremental costs are those that would not have been incurred if the contract had not been obtained (e.g., sales commissions).
+
+Costs to Fulfill a Contract: Costs incurred in fulfilling a contract should be recognized as an asset only if they:
+- Relate directly to a contract or anticipated contract
+- Generate or enhance resources that will be used in satisfying performance obligations
+- Are expected to be recovered
+
+5. DISCLOSURE REQUIREMENTS
+
+Entities must disclose sufficient information to enable users of financial statements to understand the nature, amount, timing, and uncertainty of revenue and cash flows. Required disclosures include:
+- Disaggregation of revenue by category (geography, type, timing)
+- Opening and closing balances of contract assets and liabilities
+- Revenue recognized from performance obligations satisfied in previous periods
+- Transaction price allocated to remaining performance obligations
+- Significant judgments and changes in judgments
+
+6. PRACTICAL EXPEDIENTS
+
+ASC 606 provides several practical expedients:
+- Portfolio approach: Apply revenue recognition to a portfolio of contracts with similar characteristics.
+- Significant financing component: No adjustment needed if the period between transfer and payment is one year or less.
+- Shipping and handling: May be treated as fulfillment activities rather than separate performance obligations.
+- Completed contracts: On transition, no need to restate contracts that were completed before the date of initial application.

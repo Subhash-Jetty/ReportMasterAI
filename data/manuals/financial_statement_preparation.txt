@@ -1,0 +1,158 @@
+FINANCIAL STATEMENT PREPARATION GUIDELINES
+Financial Reporting Manual - Chapter 1
+Effective Date: January 1, 2024
+Organization: ReportMaster Financial Services
+
+1. PURPOSE AND SCOPE
+
+This manual provides comprehensive guidelines for the preparation of financial statements in accordance with U.S. Generally Accepted Accounting Principles (U.S. GAAP). These guidelines apply to all entities within the organization and cover the preparation of:
+- Balance Sheet (Statement of Financial Position)
+- Income Statement (Statement of Comprehensive Income)
+- Statement of Cash Flows
+- Statement of Changes in Stockholders' Equity
+- Notes to Financial Statements
+
+2. GENERAL PRINCIPLES
+
+2.1 Fair Presentation
+Financial statements must present fairly the financial position, financial performance, and cash flows of the entity. Fair presentation requires the faithful representation of the effects of transactions, other events, and conditions in accordance with the definitions and recognition criteria set out in the applicable framework.
+
+2.2 Going Concern
+When preparing financial statements, management must assess the entity's ability to continue as a going concern. If management is aware of material uncertainties that may cast significant doubt on the entity's ability to continue as a going concern, those uncertainties must be disclosed. The assessment should cover at least twelve months from the reporting date.
+
+2.3 Accrual Basis of Accounting
+Financial statements are prepared on the accrual basis of accounting, except for cash flow information. Under the accrual basis, items are recognized as assets, liabilities, equity, revenue, and expenses when they satisfy the definitions and recognition criteria for those elements.
+
+2.4 Materiality and Aggregation
+Each material class of similar items must be presented separately. Items of a dissimilar nature or function must be presented separately unless they are immaterial. Materiality is assessed both quantitatively and qualitatively.
+
+2.5 Consistency of Presentation
+The presentation and classification of items in the financial statements must be retained from one period to the next unless a change is justified by a significant change in operations or a review indicates a more appropriate presentation.
+
+3. BALANCE SHEET PREPARATION
+
+3.1 Current vs. Non-Current Classification
+Assets and liabilities must be classified as either current or non-current:
+- Current assets: Expected to be realized, consumed, or sold within 12 months or the normal operating cycle.
+- Current liabilities: Expected to be settled within 12 months or the normal operating cycle.
+- Non-current assets and liabilities: All others.
+
+3.2 Required Line Items
+The balance sheet must include, at minimum, the following line items:
+Assets:
+- Cash and cash equivalents
+- Trade and other receivables
+- Inventories
+- Prepaid expenses and other current assets
+- Property, plant, and equipment (net of accumulated depreciation)
+- Intangible assets
+- Goodwill
+- Investment properties
+- Right-of-use assets (per ASC 842)
+
+Liabilities:
+- Trade and other payables
+- Accrued liabilities
+- Current and non-current borrowings
+- Current and deferred tax liabilities
+- Lease liabilities (per ASC 842)
+- Provisions
+
+Equity:
+- Common stock
+- Additional paid-in capital
+- Retained earnings
+- Accumulated other comprehensive income (loss)
+- Treasury stock
+
+3.3 Working Capital Analysis
+The difference between current assets and current liabilities represents working capital. A positive working capital indicates the entity can meet its short-term obligations. Management should monitor working capital ratios and trends.
+
+4. INCOME STATEMENT PREPARATION
+
+4.1 Presentation Methods
+Entities may present their income statement using either:
+- Single-step format: All revenues grouped together, all expenses grouped together.
+- Multi-step format: Separates operating results from non-operating items, showing gross profit, operating income, and net income.
+
+The multi-step format is preferred as it provides more useful information for analysis.
+
+4.2 Required Line Items
+- Net revenue (per ASC 606)
+- Cost of goods sold / Cost of services
+- Gross profit
+- Selling, general, and administrative expenses
+- Research and development expenses
+- Depreciation and amortization
+- Operating income (loss)
+- Interest income and expense
+- Other income and expense
+- Income tax expense
+- Net income (loss)
+- Earnings per share (basic and diluted)
+
+4.3 Comprehensive Income
+Other comprehensive income (OCI) items must be presented either:
+- In a single continuous statement of comprehensive income, or
+- In a separate statement immediately following the income statement.
+
+OCI items include unrealized gains/losses on available-for-sale securities, foreign currency translation adjustments, pension plan adjustments, and gains/losses on hedging instruments.
+
+5. STATEMENT OF CASH FLOWS
+
+5.1 Classification of Cash Flows
+The statement of cash flows classifies cash receipts and payments into three categories:
+
+Operating Activities: Cash flows from principal revenue-producing activities.
+- Direct method (preferred): Reports major classes of gross cash receipts and payments.
+- Indirect method: Adjusts net income for non-cash items and changes in working capital.
+
+Investing Activities: Cash flows from acquisition and disposal of long-term assets and investments.
+- Purchase/sale of property, plant, and equipment
+- Purchase/sale of investments
+- Loans made to/collected from other entities
+
+Financing Activities: Cash flows from changes in size and composition of equity and borrowings.
+- Proceeds from issuing stock or borrowings
+- Repayments of borrowings
+- Dividends paid
+- Treasury stock transactions
+
+5.2 Non-Cash Transactions
+Significant non-cash investing and financing activities must be disclosed separately, not reported in the statement of cash flows. Examples include conversion of debt to equity, acquisition of assets through capital leases, and exchanges of non-monetary assets.
+
+6. NOTES TO FINANCIAL STATEMENTS
+
+6.1 General Requirements
+Notes must:
+- Present information about the basis of preparation and specific accounting policies used.
+- Disclose information required by GAAP that is not presented elsewhere.
+- Provide additional information necessary for fair presentation.
+
+6.2 Accounting Policies Note
+The summary of significant accounting policies must include:
+- Basis of consolidation
+- Revenue recognition policies
+- Inventory valuation methods
+- Depreciation methods and useful lives
+- Impairment assessment policies
+- Recent accounting pronouncements and their expected impact
+
+7. REPORTING DEADLINES AND REVIEW PROCESS
+
+7.1 Quarterly Reporting
+- Draft financial statements: 15 business days after quarter end
+- Management review: 18 business days after quarter end
+- Final submission: 20 business days after quarter end
+
+7.2 Annual Reporting
+- Draft financial statements: 30 business days after year end
+- Internal audit review: 40 business days after year end
+- External audit completion: 60 business days after year end
+- Final submission to SEC (if applicable): 60-90 days after year end (depending on filer status)
+
+7.3 Review and Approval Process
+1. Prepared by: Staff accountant / Financial analyst
+2. First review: Accounting manager
+3. Second review: Controller / CFO
+4. Final approval: Audit committee (for publicly traded companies)

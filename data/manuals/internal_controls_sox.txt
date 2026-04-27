@@ -1,0 +1,165 @@
+INTERNAL CONTROLS AND COMPLIANCE - SARBANES-OXLEY (SOX)
+Financial Reporting Manual - Chapter 8
+Effective Date: January 1, 2024
+Organization: ReportMaster Financial Services
+
+1. OVERVIEW
+
+The Sarbanes-Oxley Act of 2002 (SOX) established requirements for public company boards, management, and public accounting firms to enhance corporate governance and financial disclosure. This manual covers the internal control requirements most relevant to financial reporting teams.
+
+SOX was enacted in response to major corporate accounting scandals (Enron, WorldCom, Tyco) and aims to protect investors by improving the accuracy and reliability of corporate disclosures.
+
+2. KEY SECTIONS RELEVANT TO FINANCIAL REPORTING
+
+Section 302: Corporate Responsibility for Financial Reports
+The CEO and CFO must personally certify the accuracy of financial statements. Specifically, they must certify that:
+- They have reviewed the report.
+- The report does not contain any material misstatement or omission.
+- The financial statements fairly present the financial condition and results of operations.
+- They are responsible for establishing and maintaining internal controls.
+- They have designed internal controls to ensure material information is made known to them.
+- They have evaluated the effectiveness of internal controls within 90 days of the report.
+- They have disclosed any significant deficiencies, material weaknesses, or fraud to the auditors and audit committee.
+
+Section 404: Management Assessment of Internal Controls
+This is the most significant section for financial reporting teams. It requires:
+
+(a) Management's Annual Internal Control Report must:
+- State management's responsibility for establishing and maintaining adequate internal controls over financial reporting.
+- Contain management's assessment of the effectiveness of internal controls as of the end of the fiscal year.
+- Identify the framework used to evaluate internal controls (typically COSO).
+
+(b) External Auditor Attestation:
+- The registered public accounting firm must attest to and report on management's assessment.
+- The auditor issues a report on the effectiveness of internal controls over financial reporting.
+
+Section 906: Corporate Responsibility for Financial Reports (Criminal Penalties)
+CEO and CFO must certify that financial reports fully comply with SEC requirements and fairly present the financial condition. Knowing violations can result in fines up to $5 million and imprisonment up to 20 years.
+
+3. COSO INTERNAL CONTROL FRAMEWORK
+
+The Committee of Sponsoring Organizations of the Treadway Commission (COSO) framework is the most widely used framework for evaluating internal controls. It consists of five interrelated components:
+
+3.1 Control Environment
+The control environment sets the tone of an organization, influencing the control consciousness of its people. It includes:
+- Integrity and ethical values
+- Board of directors and audit committee oversight
+- Management's philosophy and operating style
+- Organizational structure
+- Assignment of authority and responsibility
+- Human resource policies and practices
+
+3.2 Risk Assessment
+Every entity faces a variety of risks from external and internal sources. Risk assessment involves:
+- Identifying risks that could affect achievement of objectives
+- Analyzing risks to determine how they should be managed
+- Considering the potential for fraud
+- Identifying and assessing changes that could significantly impact the system of internal control
+
+3.3 Control Activities
+Control activities are the policies and procedures that help ensure management directives are carried out. They include:
+- Authorization and approval procedures
+- Segregation of duties (authorization, recording, custody)
+- Physical controls over assets
+- Reconciliation and verification procedures
+- Information processing controls (application and general IT controls)
+- Performance reviews and monitoring
+
+3.4 Information and Communication
+Relevant information must be identified, captured, and communicated in a timely manner. This includes:
+- Internal communication of internal control responsibilities
+- Communication with external parties (auditors, regulators, customers)
+- Reporting lines for escalation of control deficiencies
+
+3.5 Monitoring Activities
+Internal control systems need to be monitored to assess the quality of the system's performance over time. This includes:
+- Ongoing monitoring activities (management supervision, reconciliations)
+- Separate evaluations (internal audit reviews, self-assessments)
+- Reporting of deficiencies to appropriate levels of management
+
+4. KEY CONTROLS FOR FINANCIAL REPORTING
+
+4.1 Revenue Controls
+- Contract review and approval process
+- Revenue recognition policy compliance checks
+- Cutoff procedures for period-end revenue
+- Reconciliation of revenue to cash receipts
+- Review of credit memos and adjustments
+
+4.2 Expenditure Controls
+- Purchase order approval and three-way matching (PO, receipt, invoice)
+- Expense report review and approval
+- Vendor master file maintenance and approval
+- Accrual completeness review at period end
+- Capital expenditure authorization
+
+4.3 Financial Close Controls
+- Account reconciliation procedures and review
+- Journal entry review and approval (especially non-standard entries)
+- Intercompany transaction reconciliation and elimination
+- Management review of financial results (analytical procedures)
+- Disclosure checklist completion and review
+
+4.4 IT General Controls (ITGC)
+- Access controls (user provisioning, access reviews, password policies)
+- Change management (development, testing, approval, migration)
+- Computer operations (backup, recovery, job scheduling)
+- Program development (SDLC, testing, documentation)
+
+5. DEFICIENCY CLASSIFICATION
+
+5.1 Control Deficiency
+A deficiency in design or operation of a control that does not allow management or employees to prevent or detect misstatements on a timely basis.
+
+5.2 Significant Deficiency
+A deficiency or combination of deficiencies that is less severe than a material weakness but important enough to merit attention by those charged with governance.
+
+5.3 Material Weakness
+A deficiency or combination of deficiencies such that there is a reasonable possibility that a material misstatement of the annual or interim financial statements will not be prevented or detected on a timely basis.
+
+Material weaknesses must be reported to the audit committee and disclosed in the annual report. They also result in an adverse opinion from the external auditor on internal controls.
+
+6. REMEDIATION PROCEDURES
+
+When control deficiencies are identified:
+1. Document the deficiency and its potential impact
+2. Assess the severity (deficiency, significant deficiency, or material weakness)
+3. Develop a remediation plan with specific actions and timelines
+4. Assign responsibility for remediation to specific individuals
+5. Implement remediated controls
+6. Test the remediated controls for operating effectiveness
+7. Document the testing results and conclusion
+8. Report the status to the audit committee
+
+7. COMPLIANCE DOCUMENTATION REQUIREMENTS
+
+All entities must maintain the following documentation:
+- Risk and Control Matrix (RCM) for each significant process
+- Process narratives and/or flowcharts
+- Control design and operating effectiveness testing workpapers
+- Management's assessment report
+- Deficiency tracking log and remediation status
+- Meeting minutes of audit committee discussions on internal controls
+
+8. ANNUAL COMPLIANCE CALENDAR
+
+Q1 (January - March):
+- Update risk assessment and scoping for current year
+- Identify any changes in processes, systems, or organization
+- Begin interim testing of controls
+
+Q2 (April - June):
+- Continue interim testing
+- Remediate any identified deficiencies from interim testing
+- Update process documentation
+
+Q3 (July - September):
+- Complete interim testing
+- Begin roll-forward testing planning
+- Management self-assessment of control effectiveness
+
+Q4 (October - December):
+- Execute roll-forward testing
+- Finalize deficiency evaluation
+- Prepare management's assessment report
+- Coordinate with external auditors on Year-end testing and reporting

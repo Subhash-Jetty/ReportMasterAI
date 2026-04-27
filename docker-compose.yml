@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  reportmaster-ai:
+    build: .
+    container_name: reportmaster-ai
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')" ]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 3

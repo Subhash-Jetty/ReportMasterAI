@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your ReportMaster AI account — Get started with intelligent financial reporting.">
+    <title>Create Account — ReportMaster AI</title>
+    <link rel="stylesheet" href="/static/auth.css">
+</head>
+<body>
+    <div class="auth-container">
+        <!-- Left Hero Panel -->
+        <div class="auth-hero">
+            <div class="hero-brand">
+                <div class="hero-brand-icon">R</div>
+                <div class="hero-brand-name">ReportMaster<span>AI</span></div>
+            </div>
+
+            <h1 class="hero-headline">
+                Start asking<br><em>smarter</em> questions.
+            </h1>
+            <p class="hero-description">
+                Join professionals who use AI-powered document intelligence to navigate complex accounting standards with confidence.
+            </p>
+
+            <div class="hero-stats">
+                <div class="hero-stat-item">
+                    <span class="hero-stat-value">5+</span>
+                    <span class="hero-stat-label">Standards</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-value">< 3s</span>
+                    <span class="hero-stat-label">Response</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-value">100%</span>
+                    <span class="hero-stat-label">Cited</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Form Panel -->
+        <div class="auth-form-panel">
+            <div class="auth-form-container">
+                <div class="auth-form-header">
+                    <h2 class="auth-form-title">Create your account</h2>
+                    <p class="auth-form-subtitle">
+                        Already have an account? <a href="/login" id="login-link">Sign in</a>
+                    </p>
+                </div>
+
+                <div class="auth-error" id="register-error">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                    <span id="register-error-text">Error</span>
+                </div>
+
+                <div class="auth-success" id="register-success">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Account created! Redirecting to sign in...</span>
+                </div>
+
+                <form class="auth-form" id="register-form" onsubmit="handleRegister(event)">
+                    <div class="form-group">
+                        <label class="form-label" for="reg-name">Full name</label>
+                        <input
+                            type="text"
+                            id="reg-name"
+                            class="form-input"
+                            placeholder="John Doe"
+                            required
+                            autocomplete="name"
+                            minlength="2"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="reg-email">Email address</label>
+                        <input
+                            type="email"
+                            id="reg-email"
+                            class="form-input"
+                            placeholder="you@company.com"
+                            required
+                            autocomplete="email"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="reg-password">Password</label>
+                        <div class="password-wrapper">
+                            <input
+                                type="password"
+                                id="reg-password"
+                                class="form-input"
+                                placeholder="Minimum 6 characters"
+                                required
+                                autocomplete="new-password"
+                                minlength="6"
+                                oninput="updatePasswordStrength(this.value)"
+                            >
+                            <button type="button" class="password-toggle" onclick="togglePasswordVisibility('reg-password', this)" aria-label="Toggle password visibility">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                            </button>
+                        </div>
+                        <div class="password-strength" id="password-strength">
+                            <div class="strength-bar" id="str-bar-1"></div>
+                            <div class="strength-bar" id="str-bar-2"></div>
+                            <div class="strength-bar" id="str-bar-3"></div>
+                            <div class="strength-bar" id="str-bar-4"></div>
+                        </div>
+                        <span class="strength-label" id="strength-label"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="reg-confirm">Confirm password</label>
+                        <div class="password-wrapper">
+                            <input
+                                type="password"
+                                id="reg-confirm"
+                                class="form-input"
+                                placeholder="Re-enter your password"
+                                required
+                                autocomplete="new-password"
+                                minlength="6"
+                            >
+                        </div>
+                    </div>
+
+                    <label class="checkbox-group">
+                        <input type="checkbox" id="accept-terms" required>
+                        <span class="terms-text">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></span>
+                    </label>
+
+                    <button type="submit" class="auth-submit-btn" id="register-btn">
+                        <span class="btn-spinner"></span>
+                        <span class="btn-text">Create account</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="auth-footer">
+                <span>© 2026 ReportMaster AI</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/auth.js"></script>
+    <script>
+        // Redirect if already logged in
+        document.addEventListener('DOMContentLoaded', () => {
+            redirectIfAuthenticated();
+        });
+
+        function togglePasswordVisibility(inputId, btn) {
+            const input = document.getElementById(inputId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>';
+            } else {
+                input.type = 'password';
+                btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>';
+            }
+        }
+
+        function updatePasswordStrength(password) {
+            const strength = getPasswordStrength(password);
+            const bars = [
+                document.getElementById('str-bar-1'),
+                document.getElementById('str-bar-2'),
+                document.getElementById('str-bar-3'),
+                document.getElementById('str-bar-4')
+            ];
+            const label = document.getElementById('strength-label');
+
+            bars.forEach((bar, i) => {
+                bar.className = 'strength-bar';
+                if (i < strength.bars) {
+                    bar.classList.add('active', strength.level);
+                }
+            });
+
+            if (password.length > 0) {
+                label.textContent = strength.label;
+                label.className = 'strength-label ' + strength.level;
+            } else {
+                label.textContent = '';
+                label.className = 'strength-label';
+            }
+        }
+
+        async function handleRegister(e) {
+            e.preventDefault();
+            const errorEl = document.getElementById('register-error');
+            const errorText = document.getElementById('register-error-text');
+            const successEl = document.getElementById('register-success');
+            const btn = document.getElementById('register-btn');
+
+            errorEl.classList.remove('visible');
+            successEl.classList.remove('visible');
+
+            const name = document.getElementById('reg-name').value.trim();
+            const email = document.getElementById('reg-email').value.trim();
+            const password = document.getElementById('reg-password').value;
+            const confirm = document.getElementById('reg-confirm').value;
+            const terms = document.getElementById('accept-terms').checked;
+
+            // Validation
+            if (!name || !email || !password || !confirm) {
+                errorText.textContent = 'Please fill in all fields.';
+                errorEl.classList.add('visible');
+                return;
+            }
+
+            if (name.length < 2) {
+                errorText.textContent = 'Name must be at least 2 characters.';
+                errorEl.classList.add('visible');
+                return;
+            }
+
+            if (password.length < 6) {
+                errorText.textContent = 'Password must be at least 6 characters.';
+                errorEl.classList.add('visible');
+                return;
+            }
+
+            if (password !== confirm) {
+                errorText.textContent = 'Passwords do not match.';
+                errorEl.classList.add('visible');
+                return;
+            }
+
+            if (!terms) {
+                errorText.textContent = 'You must accept the terms and conditions.';
+                errorEl.classList.add('visible');
+                return;
+            }
+
+            btn.classList.add('loading');
+            btn.disabled = true;
+
+            // Simulate brief delay
+            await new Promise(r => setTimeout(r, 800));
+
+            const result = await registerUser(name, email, password);
+
+            if (result.success) {
+                successEl.classList.add('visible');
+                document.getElementById('register-form').style.opacity = '0.5';
+                document.getElementById('register-form').style.pointerEvents = 'none';
+
+                // Redirect to login after 1.5s
+                setTimeout(() => {
+                    window.location.href = '/login';
+                }, 1500);
+            } else {
+                errorText.textContent = result.error;
+                errorEl.classList.add('visible');
+                btn.classList.remove('loading');
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

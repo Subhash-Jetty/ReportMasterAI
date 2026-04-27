@@ -1,0 +1,176 @@
+CONSOLIDATION AND INTERCOMPANY TRANSACTIONS
+Financial Reporting Manual - Chapter 6
+Effective Date: January 1, 2024
+Organization: ReportMaster Financial Services
+
+1. OVERVIEW
+
+This chapter establishes the policies and procedures for preparing consolidated financial statements and accounting for intercompany transactions. Consolidation is required when an entity has a controlling financial interest in one or more other entities (subsidiaries). This guidance aligns with ASC 810, Consolidation.
+
+2. CONSOLIDATION REQUIREMENTS
+
+2.1 Determining Control
+An entity is required to consolidate another entity when it has a controlling financial interest. Control is generally established through:
+
+Voting Interest Model:
+- Ownership of more than 50% of the outstanding voting shares of another entity typically establishes a controlling financial interest.
+- Even without majority ownership, control may exist through contractual arrangements, board representation, or other mechanisms.
+
+Variable Interest Entity (VIE) Model:
+An entity is a VIE if any of the following conditions exist:
+- The equity investment at risk is not sufficient to permit the entity to finance its activities without additional subordinated financial support.
+- The equity holders lack the power to direct the activities that most significantly impact the entity's economic performance.
+- The equity holders do not have the obligation to absorb the expected losses or the right to receive the expected residual returns.
+
+The primary beneficiary of a VIE must consolidate the VIE. The primary beneficiary is the entity that has:
+- The power to direct the activities that most significantly impact the VIE's economic performance, AND
+- The obligation to absorb losses or the right to receive benefits that could potentially be significant to the VIE.
+
+2.2 Wholly-Owned vs. Partially-Owned Subsidiaries
+- Wholly-owned subsidiaries: 100% ownership. All balances are consolidated at full value.
+- Partially-owned subsidiaries: The parent consolidates 100% of the subsidiary's assets, liabilities, revenues, and expenses, but presents the portion not owned by the parent as noncontrolling interest (NCI).
+
+3. CONSOLIDATION PROCEDURES
+
+3.1 Step-by-Step Consolidation Process
+
+Step 1: Obtain Subsidiary Trial Balances
+- Collect trial balances from all subsidiaries as of the reporting date.
+- Ensure all subsidiaries use consistent accounting policies.
+- Convert foreign subsidiary financials to the reporting currency (see Section 5).
+
+Step 2: Identify and Record Adjustments
+- Record any necessary adjustments for subsidiary-level errors or policy alignment.
+- Book fair value adjustments for acquisitions (purchase price allocation per ASC 805).
+
+Step 3: Eliminate Intercompany Transactions
+- Eliminate intercompany revenues and expenses.
+- Eliminate intercompany receivables and payables.
+- Eliminate intercompany investments and equity.
+- Eliminate unrealized profits on intercompany inventory transfers.
+- Eliminate unrealized gains/losses on intercompany asset transfers.
+
+Step 4: Prepare Eliminating Entries
+Common eliminating journal entries include:
+
+Investment Elimination Entry:
+- Debit: Common Stock (subsidiary), APIC (subsidiary), Retained Earnings (subsidiary)
+- Credit: Investment in Subsidiary (parent)
+- Debit/Credit: Noncontrolling Interest (for partially-owned subsidiaries)
+- Debit/Credit: Goodwill or Bargain Purchase Gain
+
+Intercompany Revenue/Expense Elimination:
+- Debit: Intercompany Revenue
+- Credit: Intercompany Expense (e.g., Cost of Goods Sold, Management Fees)
+
+Intercompany Receivable/Payable Elimination:
+- Debit: Intercompany Payable
+- Credit: Intercompany Receivable
+
+Step 5: Calculate Noncontrolling Interest
+- NCI in net income = Subsidiary net income × NCI ownership percentage
+- NCI in equity = Subsidiary equity × NCI ownership percentage
+
+Step 6: Prepare Consolidated Financial Statements
+- Combine all adjusted trial balances.
+- Post all eliminating entries.
+- Prepare consolidated Balance Sheet, Income Statement, Statement of Cash Flows, and Statement of Changes in Equity.
+
+4. INTERCOMPANY TRANSACTION POLICIES
+
+4.1 Types of Intercompany Transactions
+- Sale of goods (inventory transfers between entities)
+- Sale of fixed assets
+- Management fees and service charges
+- Intercompany loans and interest
+- Dividend payments from subsidiary to parent
+- Cost allocations (shared services, IT costs, corporate overhead)
+
+4.2 Transfer Pricing
+All intercompany transactions must be conducted at arm's length prices in accordance with the organization's transfer pricing policy. Documentation of the pricing methodology must be maintained for each significant category of intercompany transactions.
+
+4.3 Intercompany Reconciliation
+- All intercompany balances must be reconciled monthly.
+- Reconciling differences must be resolved within 10 business days after month end.
+- The Consolidation team maintains the intercompany reconciliation log.
+- Material unreconciled differences must be escalated to the Controller.
+
+Monthly Reconciliation Steps:
+1. Each entity reports its intercompany balances by counterparty.
+2. The Consolidation team matches reported balances.
+3. Differences are investigated and resolved.
+4. Timing differences are documented.
+5. Final reconciled balances are used for elimination entries.
+
+4.4 Elimination of Unrealized Profits
+
+Downstream Sales (Parent sells to Subsidiary):
+- 100% of unrealized profit is eliminated against the parent's income.
+- Profit is realized when the subsidiary sells the inventory to a third party.
+
+Upstream Sales (Subsidiary sells to Parent):
+- 100% of unrealized profit is eliminated.
+- The elimination is allocated between the parent and NCI based on ownership percentages.
+
+Intercompany Fixed Asset Transfers:
+- Eliminate the gain/loss on the intercompany sale.
+- Adjust the asset's carrying value to original cost basis.
+- Adjust subsequent depreciation expense to reflect the original cost basis.
+
+5. FOREIGN CURRENCY TRANSLATION (ASC 830)
+
+5.1 Functional Currency Determination
+Each foreign subsidiary must determine its functional currency based on the following indicators:
+- Cash flow indicators (currency of cash receipts and expenditures)
+- Sales price indicators
+- Sales market indicators
+- Expense indicators
+- Financing indicators
+- Intercompany transactions and arrangements
+
+5.2 Translation Process
+When the functional currency is different from the reporting currency:
+
+Current Rate Method (functional currency ≠ reporting currency):
+- Assets and liabilities: Translated at the closing rate as of the balance sheet date.
+- Revenue and expenses: Translated at the average exchange rate for the period.
+- Equity: Translated at historical exchange rates.
+- Translation adjustments: Recorded in Other Comprehensive Income (cumulative translation adjustment).
+
+Remeasurement Method (functional currency = reporting currency, but books maintained in local currency):
+- Monetary items: Translated at the closing rate.
+- Non-monetary items: Translated at historical rates.
+- Revenue and expenses: Generally at average rates, except for items related to non-monetary assets/liabilities (historical rates).
+- Remeasurement gains/losses: Recognized in the Income Statement.
+
+6. GOODWILL AND INTANGIBLE ASSETS
+
+6.1 Goodwill from Business Combinations (ASC 805)
+Goodwill = Purchase price - Fair value of identifiable net assets acquired
+
+Goodwill is allocated to reporting units and tested for impairment at least annually or when triggering events occur.
+
+6.2 Goodwill Impairment Testing (ASC 350)
+The simplified one-step approach:
+1. Compare the fair value of the reporting unit to its carrying amount (including goodwill).
+2. If carrying amount exceeds fair value, recognize an impairment loss equal to the difference (not to exceed the carrying amount of goodwill).
+
+Optional qualitative assessment: An entity may first assess qualitative factors to determine whether it is more likely than not that the fair value is less than the carrying amount. If not, no quantitative test is needed.
+
+7. REPORTING AND DISCLOSURE
+
+7.1 Required Disclosures
+- Consolidation policy and basis for determining control
+- Nature and extent of significant restrictions on subsidiary assets
+- Nature, purpose, size, and activities of VIEs consolidated
+- Noncontrolling interests: ownership percentages, income/loss allocation, equity balances
+- Changes in ownership interest that do not result in deconsolidation
+- Effects of deconsolidation of a subsidiary
+
+7.2 Consolidation Reporting Calendar
+- Day 1-3 after close: Subsidiary trial balance submission
+- Day 3-5: Intercompany reconciliation and resolution
+- Day 5-7: Elimination entries and consolidation adjustments
+- Day 7-10: Draft consolidated financial statements
+- Day 10-12: Management review
+- Day 12-15: Final consolidated financial statements
