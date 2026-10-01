@@ -1,15 +1,5 @@
----
-title: ReportMaster AI
-emoji: 📊
-colorFrom: indigo
-colorTo: purple
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
-short_description: Financial Reporting Intelligence Hub powered by RAG
----
 DEMO LINK : https://huggingface.co/spaces/Subhash-Jetty/reportmaster-ai
+
 # ReportMaster AI — Financial Reporting Intelligence Hub
 
 <div align="center">
